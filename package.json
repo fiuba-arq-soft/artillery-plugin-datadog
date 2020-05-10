@@ -13,14 +13,5 @@
   "dependencies": {
     "debug": "2.6.9",
     "datadog-metrics": "^0.8.1"
-  },
-  "scripts": {
-    "test": "./node_modules/.bin/mocha --reporter spec && coffeelint src/"
-  },
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "chai-string": "^1.2",
-    "coffeelint": "^1.15",
-    "mocha": "^6.2.2"
   }
 }
